@@ -1,0 +1,25 @@
+
+  
+  .outer {
+    position:center;
+    width: 600px;
+    height: 300px;
+    padding-left: 10px;
+  }
+  #one {
+   position: left;
+    top: 80px;
+    left: 10px;
+  
+  }
+  .circular--square {
+    width: 220px;
+    height: 220px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+  }
+  .circular--square {
+    border-radius: 50%;
+  }

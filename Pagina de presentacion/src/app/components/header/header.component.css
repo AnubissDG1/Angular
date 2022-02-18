@@ -1,0 +1,27 @@
+.hea {
+    
+    width: 100%;
+    text-align: center;
+    color: gray;
+    transition: .4s;
+  }
+  .hea:hover {
+    background: rgba(56, 56, 56, 0.8);
+    color: white;
+  }
+  h1 {
+    font-family: Moderne Sans, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    letter-spacing: .5rem;
+  }
+  nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem;
+  }
+  .fecha{
+    text-align: left;
+  }
+ 
