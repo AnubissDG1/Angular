@@ -1,0 +1,23 @@
+
+body {
+    height: 790px;
+    background-color: black;
+    background-image: url("../../../assets/fondo.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+  }
+  .fcc-btn {
+    background-color: white;
+    color: gray;
+    padding: 15px 25px;
+    text-decoration: none;
+   
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+  }
+  
+  .fcc-btn:hover {
+    background-color: black;
+  }
