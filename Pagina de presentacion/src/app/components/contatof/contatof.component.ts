@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Cita } from 'src/app/interface/cita.interface';
 import { FormGroup, FormBuilder,FormControl,Validators} from '@angular/forms';
+import { CitasService } from 'src/app/services/citas.service';
+import { User } from 'src/app/interface/user.modelo';
 
 @Component({
   selector: 'app-contatof',
@@ -16,9 +18,12 @@ export class ContatofComponent{
   });
 
 
+ primerElemento:Cita = {} as Cita;
+ ultimo: Cita = {} as Cita;
+
 
 citas: Cita[]=[];
-constructor(private nuevoFormualario:FormBuilder){
+constructor(private nuevoFormualario:FormBuilder, private CitaServices:CitasService){
 }
 
 
@@ -29,8 +34,10 @@ CHILLSAVE(){
             telefono:this.formulario.get('telefono')?.value, 
             evento:this.formulario.get('evento')?.value,
         }
-    
+        this.CitaServices.addCita(nuevaCita);
 
+        this.primerElemento =  this.CitaServices.primer();
+        this.ultimo = this.CitaServices.ultimo();
         this.citas.push(nuevaCita);//PONER EN ARRAY
 
         console.log(this.citas);

@@ -8,6 +8,7 @@ import { HeaderComponent } from '../header/header.component';
 import { ContactoComponent } from '../contacto/contacto.component';
 import { ContatofComponent } from '../contatof/contatof.component';
 import { QuejasComponent } from '../quejas/quejas.component';
+import { ListaComponent } from '../lista/lista.component';
 
 const routes : Routes = [
   {
@@ -39,6 +40,12 @@ const routes : Routes = [
     path:'quejas',
     component:QuejasComponent
   }
+  ,
+  {
+    path:'lista',
+    component:ListaComponent
+  }
+  
 ]
 
 @NgModule({  

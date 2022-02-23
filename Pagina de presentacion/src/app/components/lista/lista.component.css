@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-register{
+    width: 400;
+    background: grey;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100;
+    border-radius: 4px;
+    font-family: 'calibri';
+    
+
+}
+
+
+
+.table{
+    width: 10%;
+    background-color: white;
+    text-align: left;
+    text-emphasis-color: gray;
+    border-collapse: collapse;
+    width:100%;
+
+}
+th, td {
+    padding: 20px;
+}
+thead{
+    width: 10%;
+    background-color: #fdf3bc;
+    border-bottom: solid 5px #f1b25f;
+    color:bl;
+}
+.form-register .botons {
+    width: 20%;
+    background: #fdf3bc;
+    border: none;
+    padding: 12px;
+    color: gray;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  p{
+    width: 30%;
+    background-color: rgb(219, 215, 215);
+    border-bottom: solid 5px black;
+    color:bl;
+  }
