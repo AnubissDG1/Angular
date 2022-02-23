@@ -1,0 +1,46 @@
+<header></header>
+
+<div class="row">
+    <div class="col-12">
+        <table>
+            <thead>
+            
+              <tr>
+                  <th>Nombre</th>
+                  <th>Email</th>
+                  <th>Telefono</th>
+                  <th>Evento</th>
+              </tr>
+            </thead>
+              <tbody *ngFor="let item of citas">
+
+                      <tr>
+                      <td>{{item.nombre}}</td>
+                      <td> {{item.email}} </td>
+                      <td>{{item.telefono}}</td>
+                      <td>{{item.evento}}</td>
+                      </tr>
+              </tbody>
+             
+            </table>               
+               
+            <h1>Primer Elemento</h1>
+<p>{{primerElemento.nombre}}
+{{primerElemento.email}}
+{{primerElemento.telefono}}
+{{primerElemento.evento}}</p>
+
+<h1>Ultimo Elemento</h1>
+<p>{{ultimo.nombre}}
+{{ultimo.email}}
+{{ultimo.telefono}}
+{{ultimo.evento}}</p>
+
+
+               
+
+
+    </div>
+
+</div>
+<br>
